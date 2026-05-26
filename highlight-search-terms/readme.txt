@@ -4,8 +4,10 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=r
 Tags: search, search terms, highlight, hilite, mark
 Requires at least: 3.7
 Requires PHP: 5.6
-Tested up to: 6.5
-Stable tag: 1.8.3
+Tested up to: 7.0
+Stable tag: 1.8.4
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Very lightweight (vanilla) Javascript that wraps search terms in an HTML5 mark tag within WordPress search results.
 
@@ -13,17 +15,23 @@ Very lightweight (vanilla) Javascript that wraps search terms in an HTML5 mark t
 
 Highlights search terms within WordPress generated search results, both on the search results page _and_ on each linked post page itself.
 
-This plugin is light weight and has no options. It started as very simple fusion between <a href="http://weblogtoolscollection.com/archives/2009/04/10/how-to-highlight-search-terms-with-jquery/">How to Highlight Search Terms with jQuery - theme hack by Thaya Kareeson</a> and <a href="http://wordpress.org/extend/plugins/google-highlight/">Search Hilite by Ryan Boren</a>. It has since evolved with many optimizations, HTML5 and bbPress support.
+This plugin is light weight and has no options. It started as very simple fusion between <a href="http://weblogtoolscollection.com/archives/2009/04/10/how-to-highlight-search-terms-with-jquery/">How to Highlight Search Terms with jQuery - theme hack by Thaya Kareeson</a> and <a href="http://wordpress.org/extend/plugins/google-highlight/">Search Hilite by Ryan Boren</a>.
 
-Since version 1.6 it no longer depends on the jQuery library.
+It has since evolved with many optimizations, HTML5 and other plugin compatibility. Since version 1.6 it no longer depends on the jQuery library.
 
 **Features**
 
-- Click through highlights: Highlights not only on WP search results page but also one click deeper inside any of the found pages
+- Click through highlights: Highlights not only on WP search results page but also one click deeper inside a post page
 - Character and case insensitive (lenient) highlighting
-- BuddyPress / bbPress compatibility: highlighting within forum searches
 - Caching (WP Super Cache) compatibility
 - Search terms wrapped in double quotes now considered as single term
+
+Compatible with:
+
+- Woocommerce
+- Search Filter Pro
+- BuddyPress
+- bbPress
 
 = What does it do? =
 
@@ -189,15 +197,24 @@ C. Switch to a theme that does abide by the current WordPress conventions :)
 
 == Upgrade Notice ==
 
-= 1.8.3 =
+= 1.8.4 =
 
-WP coding standards.
+Improve default block theme compatibility.
 
 
 == Changelog ==
 
+= 1.8.4 =
+
+Date 2026-05-26
+
+* Improved T25 theme compatibility
+* WP 7 compatibilty tested
+
 = 1.8.3 =
-2024-04-05
+
+Date 2024-04-05
+
 * Update to WP coding standards
 * WP 6.5 compatibility tested
 
