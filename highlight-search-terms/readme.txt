@@ -4,8 +4,8 @@ Donate link: https://donate.stripe.com/6oUbJ10Nz8xYfF7b5qdEs01
 Tags: search, search terms, highlight, hilite, mark
 Requires at least: 3.7
 Requires PHP: 5.6
-Tested up to: 7.0
-Stable tag: 1.8.4
+Tested up to: 7.2
+Stable tag: 1.8.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,12 +26,13 @@ It has since evolved with many optimizations, HTML5 and other plugin compatibili
 - Caching (WP Super Cache) compatibility
 - Search terms wrapped in double quotes now considered as single term
 
-Compatible with:
+**Compatible with**
 
-- Woocommerce
-- Search Filter Pro
-- BuddyPress
-- bbPress
+- [Woocommerce](https://wordpress.org/plugins/woocommerce/)
+- [Queryra AI Search for WooCommerce](https://wordpress.org/plugins/queryra-ai-search/) see [documentation](https://queryra.com/docs/highlight-search-terms-integration)
+- [Search & Filter Pro](https://searchandfilter.com/)
+- [BuddyPress](https://wordpress.org/plugins/buddypress/)
+- [bbPress](https://wordpress.org/plugins/bbpress/)
 
 = What does it do? =
 
@@ -197,12 +198,19 @@ C. Switch to a theme that does abide by the current WordPress conventions :)
 
 == Upgrade Notice ==
 
-= 1.8.4 =
+= 1.8.5 =
 
-Improve default block theme compatibility.
+Improve loading.
 
 
 == Changelog ==
+
+= 1.8.5 =
+
+Date: 20261106
+
+* Only load on front-end
+* Update compatibility/tested info
 
 = 1.8.4 =
 
